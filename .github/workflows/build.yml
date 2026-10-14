@@ -26,7 +26,7 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           mkdir -p work
-          unzip -q -o proyectoclipa.zip -d work
+          unzip -q -o proyectoClipa.zip -d work
           ls -la work
 
       - name: Aceptar licencias del SDK
